@@ -28,7 +28,8 @@ To earn your Hacktoberfest tee or tree reward, you must register and make four v
 
 -   Use any language.
 -   C, C++, JAVA, Data Structure and Algorithms, HTML, CSS, Android Projects.
--   Anything valuable.
+-   Go to the particular folder or (make a folder for your language if it doesnt pre-exist)
+-   Contribute Anything valuable.
 
 ## Steps For Contribution
 
