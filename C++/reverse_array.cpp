@@ -10,15 +10,15 @@ Output : arr[] = {3, 2, 1}
 using namespace std;
  
 /* Function to reverse arr[] from start to end*/
-void rvereseArray(int arr[], int start, int end)
+void rvereseArray(int arr[], int s, int e)
 {
-    while (start < end)
+    while (s < e)
     {
-        int temp = arr[start];
-        arr[start] = arr[end];
-        arr[end] = temp;
-        start++;
-        end--;
+        int temp = arr[s];
+        arr[s] = arr[e];
+        arr[e] = temp;
+        s++;
+        e--;
     }
 }    
  
