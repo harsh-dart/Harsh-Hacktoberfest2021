@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch quicksort",
+            "request": "launch",
+            "mainClass": "quicksort",
+            "projectName": "Harsh-Hacktoberfest2021_34ce3488"
+        },
+        {
+            "type": "java",
+            "name": "Launch CircularLinkedList",
+            "request": "launch",
+            "mainClass": "CircularLinkedList",
+            "projectName": "Harsh-Hacktoberfest2021_34ce3488"
+        },
+        {
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
