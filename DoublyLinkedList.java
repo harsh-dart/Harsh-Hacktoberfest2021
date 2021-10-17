@@ -55,9 +55,7 @@ public class DoublyLinkedList {
         } else
             System.out.println("Empty List");
     }
-     public void deleteFromLast() {
-    }
-
+    
     public void displayFromStart() {
         if (!isEmpty()) {
             Node temp = head;
