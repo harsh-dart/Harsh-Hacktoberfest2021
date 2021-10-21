@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+}
+
+body{
+    background-color: #1876b0;
+}
+
+
+/*heading*/
+
+.heading{
+    color: #ffffff;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 2px 2px #1d8dd2;
+}
+
+ /*quiz box*/
+ 
+ .hidden{
+     display:none;
+ }
+
+
+.quiz-box
+  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 
+                    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    padding: 20px 20px 20px 20px;
+    background-color: #11537c;
+    min-height: 300px;
+    width: 500px;
+    vertical-align: middle;
+}
+
+
+
+.quiz-box h3{
+    margin-top: 40px;
+    color:#ffffff;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.quiz-box input{
+    border-radius: 25px;
+    height: 35px;
+    width: 200px;
+    margin: 0px 50px 30px 130px;
+    border: none;
+    color: #222;
+    font-size: 20px;
+}
+input[type=text]{
+    border-radius: 25px;
+    border: none;
+    padding-left: 20px;
+}
+
+.quiz-box input :hover{
+    border: none;
+    border-radius: 25px;
+}
+
+.quiz-box .buttons{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+.quiz-box .buttons button{
+    margin: 0 5px;
+    height: 40px;
+    padding:0px 20px 20px 20px;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn {
+    background-color: #1771a9;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.buttons .quit
+{
+    background-color:#9f1625;
+    
+}
+
+.quit a{
+    color: #ffffff;
+}
+
+.btn :hover {
+    opacity: 0.6;
+   }
+.quit :hover{
+ opacity: 0.6;
+}
+ 

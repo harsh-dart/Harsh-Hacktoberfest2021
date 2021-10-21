@@ -1,20 +1,20 @@
 #include<bits/stdc++.h>
-#include <iostream>
 using namespace std;
-int main()
+
+int fibo(int n)
 {
-    ios_base::sync_with_stdio(NULL);
-    cin.tie(NULL);
-    int n1 = 0, n2 = 1, n3, i, number;
-    cout << "Enter the number of elements: ";
-    cin >> number;
-    cout << n1 << " " << n2 << " ";
-    for (i = 2; i < number; ++i)
-    {
-        n3 = n1 + n2;
-        cout << n3 << " ";
-        n1 = n2;
-        n2 = n3;
-    }
-    return 0;
+	if (n <= 1)
+		return n;
+	return fibo(n-1) + fibo(n-2);
 }
+
+int main ()
+{
+	int n;
+  cin>>n;
+	cout << fibo(n);
+	
+	return 0;
+}
+
+
